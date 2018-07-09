@@ -2,6 +2,9 @@
 body{
     background-image: url("../images/light-grey-terrazzo.png");
     color: #777777;
+    min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
 }
 
 footer {
@@ -25,7 +28,9 @@ footer {
     color: white;
     min-width: 200px;
 }
-
+.modal-content{
+    background: none;
+}
 #nav-links{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: lightgray;
@@ -102,6 +107,12 @@ label{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.portfolioObject:hover{
+    opacity: 0.7;
+}
+
+
+
 img{
     width: 100%;
 
@@ -125,8 +136,9 @@ p{
 } */
 
 #contact-footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 767px) {
